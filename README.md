@@ -1,2 +1,2 @@
 # DNcH
-Dear reviewers, the full source code will be published as soon as the paper is accepted.
+If the paper is accepted, the complete code will be uploaded soon.
