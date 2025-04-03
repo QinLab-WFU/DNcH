@@ -39,14 +39,11 @@ After the dataset has been prepared, we could run the follow command to train.
 > python main.py --is-train --dataset coco --caption-file caption.mat --index-file index.mat --label-file label.mat --lr 0.0001 --output-dim 64 --save-dir ./result/coco/64 --clip-path ./ViT-B-32.pt --batch-size 64
 
 ## Citation
-@article{ZHU2025127365,
-title = {Deep neighbor-coherence hashing with discriminative sample mining for supervised cross-modal retrieval},
-journal = {Expert Systems with Applications},
-pages = {127365},
-year = {2025},
-issn = {0957-4174},
-doi = {https://doi.org/10.1016/j.eswa.2025.127365},
-url = {https://www.sciencedirect.com/science/article/pii/S095741742500987X},
-author = {Congcong Zhu and Qibing Qin and Wenfeng Zhang and Lei Huang}.}
-
-
+@article{zhu2025deep,
+  title={Deep neighbor-coherence hashing with discriminative sample mining for supervised cross-modal retrieval},
+  author={Zhu, Congcong and Qin, Qibing and Zhang, Wenfeng and Huang, Lei},
+  journal={Expert Systems with Applications},
+  pages={127365},
+  year={2025},
+  publisher={Elsevier}
+}
