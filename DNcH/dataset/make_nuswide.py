@@ -68,7 +68,7 @@ print("labels sum:", labels.sum())
 not_used_id = []
 with open(os.path.join(root_dir, "/nuswide/Groundtruth/not_used_id.txt")) as f:
     not_used_id = f.readlines()
-not_used_id = [int(item.strip()) for item in not_used_id]
+not_used_id = [int(int(item.strip())-2) for item in not_used_id]
 
 # for item in not_used_id:
 #     indexs.pop(item)
